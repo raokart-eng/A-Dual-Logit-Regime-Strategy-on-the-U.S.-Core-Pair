@@ -1,0 +1,41 @@
+{
+  "strategy": "Karthik-1",
+  "target": "drawdown",
+  "fit_window": {
+    "start": "1995-01-01",
+    "end": "1998-12-31"
+  },
+  "thresholds": {
+    "threshold_pct": 15.0,
+    "probability_cutoff": 0.4
+  },
+  "model": {
+    "type": "logistic_regression",
+    "penalty": "l1",
+    "C": 1.0,
+    "intercept": -1.5081584261282697,
+    "coefficients": {
+      "Mkt": 0.0,
+      "SMB_proxy": 0.0,
+      "INTL_US": 0.0,
+      "Mom": -12.037962393708339,
+      "VIX_proxy": 0.0,
+      "Term": 0.0,
+      "Credit": 0.0,
+      "Mkt_5d": 0.0,
+      "Mkt_21d": 0.0,
+      "SMB_proxy_5d": 0.0,
+      "SMB_proxy_21d": 0.0,
+      "INTL_US_5d": 0.0,
+      "INTL_US_21d": 0.0,
+      "Mom_5d": -25.3925005592457,
+      "Mom_21d": 44.72316718499396,
+      "VIX_proxy_5d": -4.315210346323326,
+      "VIX_proxy_21d": 0.0,
+      "Term_5d": 0.0,
+      "Term_21d": 0.0,
+      "Credit_5d": 0.0,
+      "Credit_21d": 0.0
+    }
+  }
+}

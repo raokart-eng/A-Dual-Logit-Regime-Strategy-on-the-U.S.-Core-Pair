@@ -1,0 +1,16 @@
+{
+  "strategy_name": "Karthik-1",
+  "equity": "VFINX",
+  "fixed_income": "VBMFX",
+  "allocations": {
+    "AGGRESSIVE": 0.9,
+    "NEUTRAL": 0.55,
+    "CONFLICTED": 0.15,
+    "DEFENSIVE": 0.85
+  },
+  "rebalance_frequency": "monthly",
+  "challenge_window_assigned": {
+    "start": "2021-01-01",
+    "end": "2024-12-31"
+  }
+}
